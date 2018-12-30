@@ -1,0 +1,14 @@
+.logoFooter{
+    width: 60%!important;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        padding: 25px 0 25px 0;
+    }
+    footer .infoLinks h2, footer .open h2, footer .infoContact1 h2{
+        margin-bottom: 8px;
+    }
+    .padding-mobile {
+        padding-bottom: 15px !important;
+    }
+}

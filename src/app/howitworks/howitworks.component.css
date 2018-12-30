@@ -1,0 +1,59 @@
+.step1{
+    animation: fadeInRight 0.4s ease-in 1200ms both
+}
+.step2{
+    animation: fadeInRight 0.8s ease-in 1200ms both
+}
+.step3{
+    animation: fadeInRight 1.2s ease-in 1200ms both
+}
+.step4{
+    animation: fadeInRight 1.6s ease-in 1200ms both
+}
+.mytitle{
+    padding: 0px!important;
+    margin: 0;
+    width: 70%;
+    align-content: center;
+    margin-left: 10%;
+}
+p {
+    text-align: center!important;
+}
+.mylists{
+padding: 0!important;
+
+}
+.mylists ul li {font-size: 17px;}
+
+.howittext
+{
+    margin-bottom: 60px;
+}
+h5 {
+    font-size: 16px;
+}
+.howittext{
+    font-size: 16px;
+}
+.pricing .line {
+    background: url(../../assets/img/sLine.png) no-repeat;
+}
+@media only screen and (max-width: 600px) {
+.pricing{
+   padding: 0;
+}
+.mytitle
+{
+    margin: 0 0 0 28%;
+}
+.pricing h2{
+    margin-top: 25px;
+}
+.howittext {
+    margin-bottom: 29px;
+}
+.pricing .line{
+    margin: 0 auto 19px auto;
+}
+}

@@ -1,0 +1,31 @@
+<section class="services paddingServices" id="industries">
+  <div class="container">
+    <div #indusRow class="row">
+      <div class="col-md-12 col-sm-12">
+        <h2>INDUSTRIES</h2>
+        <div class="line"></div>
+      </div>
+      <div class="col-md-3 asideNav hide">
+
+      </div>
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 asideContainer"></div> -->
+      <div *ngFor="let indus of industries" #indusBox class="col-md-4 col-sm-6 col-xs-12 padding-mobile4 padding-mobile1 industryBox" (click)="expanding(indusRow, indusBox)">
+        <div class="boxServices">
+          <div class="ServiceBoxhead">
+          <div class="iconServices servicePic">
+            <!-- <img [src]="indus.imgUrl" alt=""> -->
+            <i class="fa {{indus.icon}}" aria-hidden="true" style=""></i>
+            <input type="hidden" [value]="indus.id">
+            <!-- <i class="far fa-object-group"></i> -->
+          </div>
+          <div class="textH2">
+            <h2>{{indus.head}}</h2>
+          </div>
+        </div>
+          <p [class]="hide">{{indus.description}}</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

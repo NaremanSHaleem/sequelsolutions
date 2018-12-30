@@ -1,0 +1,35 @@
+h3, h4, p ,li {
+    color: white;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+li::before {
+  content: "• ";
+  color: #f7941d; 
+}
+.progressb .line {
+  background: url(../../assets/img/sLine.png) no-repeat;
+}
+.fa, .fas{
+  color: #f7941d;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 600px) {
+.paddingProgress {
+  padding: 25px 0 0px 0;}
+  .progressb .line{
+    margin: 0 auto 25px auto; 
+  }
+}

@@ -1,0 +1,54 @@
+<!-- <div class="loader"></div> -->
+<a  class="scrolltotop" style="display: inline;" [ngx-scroll-to-offset]="-60" [ngx-scroll-to]="'home2'">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<div class="topHeader " id="home" >
+  <div class="container" id="home2">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <ul class="boxHeader">
+        
+          <!-- <li class="line"></li> -->
+          <li class="none">
+            <div class="headerIcon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="headerText">
+              <a href="#">info@sequelsolutions.co.uk</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+<header class="header menuheader" id="menuheader">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logoContainer" [ngx-scroll-to]="'home'">
+          <img src="../../assets/Images/sequelLogo.png" alt="Logo">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navmenu" #itemsList>
+          <li  #thisitem *ngFor="let item of menuitems">
+            <input type="hidden" [value]="item.id">
+            <a [ngx-scroll-to-offset]="-110" [ngx-scroll-to]="item.scrollToId" [ngx-scroll-to-duration]="900">{{item.name}}
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

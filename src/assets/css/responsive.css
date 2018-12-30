@@ -1,0 +1,175 @@
+@media (min-width: 1200px) {
+	.padding-mobile4 {
+			margin-bottom: 30px !important;
+	}
+}
+
+@media (min-width: 991px) {
+
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+	    float: right !important;
+	    margin: 0;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 699px) {
+
+}
+@media (min-width: 636px) and (max-width: 699px) {
+
+}
+@media (min-width: 576px) and (max-width: 635px) {
+
+}
+@media (min-width: 551px) and (max-width: 575px) {
+
+}
+@media (min-width: 518px) and (max-width: 550px) {
+
+}
+@media (min-width: 480px) and (max-width: 517px) {
+
+}
+@media (max-width: 1200px) {
+	.boxVideo {
+			padding: 30% 0 35% 0 !important;
+	}
+
+	.padding-mobile1 {
+			margin-bottom: 30px !important;
+	}
+}
+
+@media (max-width: 991px) {
+  	.topHeader {
+			display: none !important;
+		}
+
+	 .padding-mobile {
+			padding-bottom: 30px !important;
+		}
+
+	.boxVideo {
+			padding: 25% 0 30% 0 !important;
+	}
+
+	.portfolio {
+			padding: 100px 0 !important;
+	}
+
+	.pricing {
+			padding-top: 0 !important;
+	}
+
+	.infoContact p {
+			text-align: center !important;
+	}
+
+	.center-mobile {
+			width: 150px !important;
+			margin: 0 auto !important;
+			display: table !important;
+	}
+
+	.right1 {
+			float: none !important;
+	}
+
+	.errorpage .imgError {
+	    width: 400px !important;
+	}
+
+	.padding-mobile2 {
+			margin-bottom: 30px !important;
+	}
+}
+@media (max-width: 768px) {
+	 .header {
+	 		overflow: hidden !important;
+	 }
+
+	 .darknavbar, .clearnavbar {
+		 	height: auto !important;
+	 }
+
+	 .navbar-default .navbar-toggle {
+	 	border-color: #eee !important;
+	 }
+
+	 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	 	background-color: #f05622;
+	 }
+
+	 .navbar-default .navbar-toggle .icon-bar {
+	 	background-color: #001e32;
+	 }
+
+	 .navbar-default .navbar-toggle:hover .icon-bar {
+	 	background-color: #FFF;
+	 }
+
+	 .navbar-collapse {
+	 	border-top: 0 !important;
+	 }
+
+	 .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	 	color: #FFF !important;
+	 	background-color: #f05622!important;
+	 }
+
+	 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	 	color: #001e32 !important;
+	 	background: transparent !important;
+	 }
+
+	.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+	    padding: 10px 30px 10px 50px !important;
+	}
+
+	.faq h3, .faq p {
+			text-align: center !important;
+	}
+
+	.padding-mobile3 {
+			margin-bottom: 30px !important;
+	}
+	.infoContact p {
+			margin-bottom: 30px !important;
+	}
+}
+
+@media (max-width: 480px) {
+   	.banner h2 {
+   		font-size: 30px !important;
+   	}
+
+		.errorpage .imgError {
+				width: 275px !important;
+		}
+
+		.btn {
+		    width: 275px !important;
+		}
+
+		a.btnOrange4 {
+		    padding: 10px 15px !important;
+		}
+}
+@media (max-width: 360px) {
+
+}

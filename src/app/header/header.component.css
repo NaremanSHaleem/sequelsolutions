@@ -1,0 +1,44 @@
+ .logoContainer{
+width:500px!important;
+ }
+
+ .logoContainer > img{
+    width: 40%;
+    margin-top: -12px;
+ } 
+ .navmenu{
+    margin-top: 9px;
+ }
+ header #menuheader{
+    padding: 10px 0 15px 0!important;
+ }
+.active{
+     border-bottom: 2px solid #f7941d!important;
+     color: #f7941d!important;
+}
+.fixed{
+    padding: 15px 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #FFF;
+    height: 95px;
+    top: 50px;
+}
+.topfixed{
+    /* padding: 15px 0; */
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    top: 0px;
+}
+@media only screen and (max-width: 600px) {
+a.scrolltotop{
+    bottom: 66px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color:#f7941d;
+}
+}

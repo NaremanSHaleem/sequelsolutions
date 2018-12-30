@@ -1,0 +1,17 @@
+p{
+    line-height: 1.8;
+}
+.overviewtxt{
+    margin-top: 20px;
+}
+.about .line {
+  background: url(../../assets/img/sLine.png) no-repeat;
+}
+@media only screen and (max-width: 600px) {
+.about{
+    padding: 25px 0 30px 0;
+}
+.about .line{
+    margin: 0 auto 25px auto;
+}
+}

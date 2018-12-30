@@ -1,0 +1,78 @@
+ .servicePic{
+    width: 100px!important;
+    padding: 0;
+}
+.expand{
+    top: 0;
+    width:70%;
+    /* float: right; */
+    height: 800px;
+}
+.boxServices{
+    height: 290px;
+    cursor: pointer;
+}
+.inexpand{
+    width: 25%;
+    display:block!important;
+    /* float: left; */
+}
+.lowpadding{
+padding: 5px;
+}
+.block{
+    display:block!important;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.hide{
+    display: none;
+}
+.servicePic i
+{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.noBorder{
+    border: none;
+}
+.autoHight{
+height: auto;
+}
+.services .line {
+    background: url(../../assets/img/sLine.png) no-repeat;
+}
+.industryBox{
+    transition: width 1s ease-out 0s;
+}
+.industryBox:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.asideNav{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.asideNav h2{
+    font-size: 25px;
+    /* text-align: left; */
+    display: inline;
+}
+.asideNav .servicePic{
+    margin-left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+.paddingServices {
+    padding: 26px 0 0px 0;
+}
+.services .line{
+    margin: 0 auto 25px auto;
+}
+}
